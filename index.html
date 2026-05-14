@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>NOVA - One Vision. Infinite Possibilities.</title>
+    <meta name="description"
+        content="NOVA brings together six specialized divisions under one vision: Edits, Photography, Events, Broker, Sounds, and Band.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Dynamic Background System -->
+    <div id="dynamic-bg"></div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">NOVA</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero"
+        data-bg="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop"
+        data-color="#0A84FF">
+        <div class="hero-content">
+            <h1 class="glow-text">NOVA</h1>
+            <p class="tagline">One Vision. Infinite Possibilities.</p>
+
+            <div class="service-cards-container">
+                <a href="#edits" class="hero-card edit-card">
+                    <i class="fas fa-film"></i>
+                    <span>Nova Edits</span>
+                </a>
+                <a href="#photography" class="hero-card photo-card">
+                    <i class="fas fa-camera"></i>
+                    <span>Nova Photography</span>
+                </a>
+                <a href="#events" class="hero-card event-card">
+                    <i class="far fa-calendar-alt"></i>
+                    <span>Nova Events</span>
+                </a>
+                <a href="#broker" class="hero-card broker-card">
+                    <i class="fas fa-handshake"></i>
+                    <span>Nova Broker</span>
+                </a>
+                <a href="#sounds" class="hero-card sound-card">
+                    <i class="fas fa-music"></i>
+                    <span>Nova Sounds</span>
+                </a>
+                <a href="#band" class="hero-card band-card">
+                    <i class="fas fa-guitar"></i>
+                    <span>Nova Band</span>
+                </a>
+            </div>
+
+            <a href="#services" class="cta-button explore-btn">Explore Our Universe <i
+                    class="fas fa-arrow-down"></i></a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section"
+        data-bg="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop"
+        data-color="#8e8e93">
+        <div class="container glass-panel">
+            <div class="about-text" style="text-align: center;">
+                <h2 class="section-title">About <span>NOVA</span></h2>
+                <p class="story-text" style="max-width: 800px; margin: 0 auto 40px auto;">Born from a passion for
+                    creativity and business excellence, NOVA brings together six specialized divisions under one vision.
+                    Whether you need visual storytelling, event perfection, property solutions, or musical experiences —
+                    we deliver stellar results.</p>
+
+                <div class="stats-counter"
+                    style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); max-width: 900px; margin: 0 auto;">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="20">0</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="10">0</h3>
+                        <p>Team Members</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="3">0</h3>
+                        <p>Co-founders</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="6">0</h3>
+                        <p>Specializations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section team-section"
+        data-bg="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+        data-color="#30D158">
+        <div class="container glass-panel">
+            <h2 class="section-title">Meet Our <span>Co-Founders</span></h2>
+            <div class="team-grid"
+                style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); max-width: 1000px; margin: 0 auto;">
+                <div class="team-member">
+                    <img src="1.jpg" alt="Tharul Sasmina Jayakody" class="team-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Tharul+Sasmina+Jayakody&size=200&background=random'">
+                    <div class="team-info">
+                        <h4>Tharul Sasmina Jayakody</h4>
+                        <p>Co-founder</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="2.JPG" alt="Bihindu Amasara Basnayake" class="team-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Bihindu+Amasara+Basnayake&size=200&background=random'">
+                    <div class="team-info">
+                        <h4>Bihindu Amasara Basnayake</h4>
+                        <p>Co-founder</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="3.jpg" alt="Rashmika Vimukthi Bandara" class="team-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Rashmika+Vimukthi+Bandara&size=200&background=random'">
+                    <div class="team-info">
+                        <h4>Rashmika Vimukthi Bandara</h4>
+                        <p>Co-founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Container -->
+    <div id="services">
+        <!-- 1. Nova Edits -->
+        <section id="edits" class="service-section division-edits"
+            data-bg="https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=2600&auto=format&fit=crop"
+            data-color="#FF2D55">
+            <div class="container glass-panel">
+                <div class="service-content">
+                    <div class="service-icon"><i class="fas fa-film sparkle"></i></div>
+                    <h2>Nova Edits</h2>
+                    <p class="service-desc">Professional video editing, color grading, VFX, and post-production services
+                        for films, commercials, YouTube content, and social media.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Video Editing & Cut</li>
+                        <li><i class="fas fa-check"></i> Color Correction & Grading</li>
+                        <li><i class="fas fa-check"></i> Motion Graphics & VFX</li>
+                        <li><i class="fas fa-check"></i> Sound Design for Video</li>
+                        <li><i class="fas fa-check"></i> Social Media Content Editing</li>
+                    </ul>
+                    <a href="#contact" class="btn primary-btn edits-btn">Start Your Project</a>
+                </div>
+                <div class="service-visual">
+                    <div class="video-timeline-mockup">
+                        <div class="timeline-header">Sequence 01</div>
+                        <div class="timeline-tracks">
+                            <div class="track v-track highlight"></div>
+                            <div class="track v-track"></div>
+                            <div class="track a-track"></div>
+                            <div class="track a-track"></div>
+                        </div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Editing Setup" class="service-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Nova Photography -->
+        <section id="photography" class="service-section division-photography"
+            data-bg="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=2000&auto=format&fit=crop"
+            data-color="#30D158">
+            <div class="container glass-panel">
+                <div class="service-visual order-2">
+                    <div class="swipe-wrapper" style="position: relative; overflow: visible;">
+                        <div class="photo-gallery-preview swipe-container" id="photo-swipe">
+                            <!-- Slide 1: Highlights -->
+                            <div class="swipe-slide" data-label="Photography Highlights"
+                                style="display: grid; gap: 15px;">
+                                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                                    alt="Wedding" class="service-img">
+                                <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                                    alt="Portrait" class="service-img">
+                            </div>
+                            <!-- Slide 2: Photographers -->
+                            <div class="swipe-slide" data-label="Photographers"
+                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; align-content: center;">
+                                <img src="b8655141-cb74-49f1-b15f-b64dafd85df7.jpg" alt="Tharul Jayakodi"
+                                    style="width: 100%; border-radius: 15px; object-fit: cover;">
+                                <img src="0b0ebf27-a961-49e8-98a0-b8f319d1821e - Copy.jpg" alt="Bihindu Basnayake"
+                                    style="width: 100%; border-radius: 15px; object-fit: cover;">
+                            </div>
+                            <!-- Slide 3: Captured Photos (Grid) -->
+                            <div class="swipe-slide" data-label="Captured by Nova Shoots"
+                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-content: center;">
+                                <img src="77c37108-029c-41cb-9402-49122d3c1eb7 - Copy.jpg" alt="Gallery 1"
+                                    style="width: 100%; border-radius: 10px; aspect-ratio: 1/1; object-fit: cover;">
+                                <img src="96afbced-1336-4b37-938f-ba05deab1beb - Copy.jpg" alt="Gallery 2"
+                                    style="width: 100%; border-radius: 10px; aspect-ratio: 1/1; object-fit: cover;">
+                                <img src="193c309c-4071-4cc7-9610-54c5406fac8a - Copy.jpg" alt="Gallery 3"
+                                    style="width: 100%; border-radius: 10px; aspect-ratio: 1/1; object-fit: cover;">
+                                <img src="4611b110-d741-4f9a-ba52-ad6b0b88680a - Copy.jpg" alt="Gallery 4"
+                                    style="width: 100%; border-radius: 10px; aspect-ratio: 1/1; object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="swipe-overlay-ui">
+                            <span class="swipe-label-text">Photography Highlights</span>
+                            <button class="swipe-next-arrow" title="Next Slide"><i
+                                    class="fas fa-chevron-right"></i></button>
+                        </div>
+                        <div class="swipe-dots" data-for="photo-swipe"></div>
+                    </div>
+                </div>
+                <div class="service-content order-1">
+                    <div class="service-icon"><i class="fas fa-camera lens-flare"></i></div>
+                    <h2>Nova Photography</h2>
+                    <p class="service-desc">Capturing moments that matter. From weddings to corporate shoots, product
+                        photography to cinematic videography — at affordable prices.</p>
+                    <p class="highlight-text">Affordable packages without compromising quality</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Wedding Photography & Videography</li>
+                        <li><i class="fas fa-check"></i> Corporate & Brand Photography</li>
+                        <li><i class="fas fa-check"></i> Product Photography</li>
+                        <li><i class="fas fa-check"></i> Event Coverage (Photo + Video)</li>
+                        <li><i class="fas fa-check"></i> Drone Aerial Photography</li>
+                        <li><i class="fas fa-check"></i> Portrait Sessions</li>
+                    </ul>
+                    <a href="https://wa.me/94719055470" target="_blank" class="btn primary-btn photo-btn"><i class="fab fa-whatsapp"></i> Book a Shoot</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Nova Events -->
+        <section id="events" class="service-section division-events"
+            data-bg="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop"
+            data-color="#FF9F0A">
+            <div class="container glass-panel">
+                <div class="service-content">
+                    <div class="service-icon"><i class="far fa-calendar-alt sparkle"></i></div>
+                    <h2>Nova Events</h2>
+                    <p class="service-desc">End-to-end event planning and execution. We handle everything so you can
+                        enjoy your moment.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Corporate Events & Conferences</li>
+                        <li><i class="fas fa-check"></i> Weddings & Private Celebrations</li>
+                        <li><i class="fas fa-check"></i> Concert & Show Management</li>
+                        <li><i class="fas fa-check"></i> Brand Launches & Exhibitions</li>
+                        <li><i class="fas fa-check"></i> Logistics & Vendor Management</li>
+                        <li><i class="fas fa-check"></i> On-site Coordination Team</li>
+                    </ul>
+                    <a href="#contact" class="btn primary-btn events-btn">Plan Your Event</a>
+                </div>
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Event Setup" class="service-img rounded shadow-gold">
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Nova Broker -->
+        <section id="broker" class="service-section division-broker"
+            data-bg="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
+            data-color="#0A84FF">
+            <div class="container glass-panel">
+                <div class="service-visual order-2">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Real Estate" class="service-img rounded shadow-blue">
+                </div>
+                <div class="service-content order-1">
+                    <div class="service-icon"><i class="fas fa-handshake"></i></div>
+                    <h2>Nova Broker</h2>
+                    <p class="service-desc">Your trusted property partner. Have land to sell? Looking to buy? We connect
+                        opportunities with outcomes.</p>
+                    <div class="highlight-banner">Have land? Contact us — we'll sell it for you</div>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Land Sales & Acquisition</li>
+                        <li><i class="fas fa-check"></i> Property Listing & Marketing</li>
+                        <li><i class="fas fa-check"></i> Buyer-Seller Connection</li>
+                        <li><i class="fas fa-check"></i> Legal Documentation Support</li>
+                        <li><i class="fas fa-check"></i> Site Visits & Evaluation</li>
+                        <li><i class="fas fa-check"></i> Investment Consulting</li>
+                    </ul>
+                    <div class="button-group">
+                        <a href="#contact" class="btn primary-btn broker-btn"
+                            onclick="selectContactReason('broker-sell')">List Your Property</a>
+                        <a href="#contact" class="btn secondary-btn broker-btn"
+                            onclick="selectContactReason('broker-buy')">Find Property</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Nova Sounds -->
+        <section id="sounds" class="service-section division-sounds"
+            data-bg="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070&auto=format&fit=crop"
+            data-color="#BF5AF2">
+            <div class="container glass-panel">
+                <div class="service-content">
+                    <div class="service-icon"><i class="fas fa-microphone-alt"></i></div>
+                    <h2>Nova Sounds</h2>
+                    <p class="service-desc">Professional recording studio for artists. Record tracks, produce beats, mix
+                        and master — turn your sound into a hit.</p>
+                    <p class="studio-features">State-of-the-art equipment, soundproof rooms, experienced producers</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Music Recording & Tracking</li>
+                        <li><i class="fas fa-check"></i> Beat Production & Composition</li>
+                        <li><i class="fas fa-check"></i> Mixing & Mastering</li>
+                        <li><i class="fas fa-check"></i> Songwriting Assistance</li>
+                        <li><i class="fas fa-check"></i> Jingle & Ad Music Production</li>
+                        <li><i class="fas fa-check"></i> Voice-over Recording</li>
+                    </ul>
+                    <a href="https://wa.me/94726064883" target="_blank" class="btn primary-btn sounds-btn"><i class="fab fa-whatsapp"></i> Book Studio Time</a>
+                </div>
+                <div class="service-visual">
+                    <div class="equalizer">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Recording Studio" class="service-img rounded shadow-cyan">
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Nova Band -->
+        <section id="band" class="service-section division-band"
+            data-bg="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=2070&auto=format&fit=crop"
+            data-color="#FF3B30">
+            <div class="container glass-panel">
+                <div class="service-visual order-2">
+                    <div class="swipe-wrapper" style="position: relative; overflow: visible;">
+                        <div class="swipe-container" id="band-swipe" style="border-radius: 25px;">
+                            <!-- Slide 1: Live Performance Photo -->
+                            <div class="swipe-slide" data-label="Live Performance">
+                                <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Live Band Performance" class="service-img rounded shadow-red">
+                            </div>
+                            <!-- Slide 2: Band Manager -->
+                            <div class="swipe-slide team-grid" data-label="Band Manager"
+                                style="display: grid; align-content: center; padding: 20px;">
+                                <div class="team-member"
+                                    style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                                    <img src="3.jpg" alt="Rashmika Vimukthi Bandara"
+                                        style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid var(--clr-white);">
+                                    <div class="team-info" style="margin-top: 15px;">
+                                        <h4 style="font-size: 1.5rem; color: var(--clr-white);">Rashmika</h4>
+                                        <p style="color: var(--clr-primary); font-weight: 500;">Band Manager</p>
+                                        <p style="color: var(--clr-light); margin-top: 10px; font-size: 0.9rem;">Contact
+                                            for bookings and inquiries.</p>
+                                        <a href="https://wa.me/94719053055" target="_blank" class="btn primary-btn"
+                                            style="margin-top: 15px; padding: 8px 20px;"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swipe-overlay-ui">
+                            <span class="swipe-label-text">Live Performance</span>
+                            <button class="swipe-next-arrow" title="Next Slide"><i
+                                    class="fas fa-chevron-right"></i></button>
+                        </div>
+                        <div class="swipe-dots" data-for="band-swipe"></div>
+                    </div>
+                </div>
+                <div class="service-content order-1">
+                    <div class="service-icon"><i class="fas fa-guitar"></i></div>
+                    <h2>Nova Band</h2>
+                    <p class="service-desc">A dynamic live band ready to electrify your events. Available for hire —
+                        weddings, corporate gigs, concerts, and private shows.</p>
+                    <div class="highlight-banner pulse">Available for hire for your next show!</div>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Wedding Receptions & Ceremonies</li>
+                        <li><i class="fas fa-check"></i> Corporate Events & Galas</li>
+                        <li><i class="fas fa-check"></i> Concerts & Festival Appearances</li>
+                        <li><i class="fas fa-check"></i> Private Parties & Celebrations</li>
+                        <li><i class="fas fa-check"></i> Background Jazz/Lounge Sets</li>
+                        <li><i class="fas fa-check"></i> High-Energy Dance Sets</li>
+                    </ul>
+                    <a href="javascript:void(0)" onclick="document.getElementById('band-swipe').scrollTo({left: document.getElementById('band-swipe').offsetWidth, behavior: 'smooth'});" class="btn primary-btn band-btn">Book the Band</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- New Section Placeholder -->
+    <section id="new-section" class="section new-section"
+        data-bg="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+        data-color="#0A84FF">
+        <div class="container glass-panel">
+            <h2 class="section-title">New <span>Section</span></h2>
+            <p style="text-align: center; font-size: 1.2rem; color: var(--clr-light);">This space has been cleared for
+                your new content. Please let me know what you would like to display here.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Hidden per request) -->
+    <section id="portfolio" class="section portfolio-section" style="display: none;"
+        data-bg="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+        data-color="#0A84FF">
+        <div class="container glass-panel">
+            <h2 class="section-title">Our <span>Universe of Work</span></h2>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="edits">Edits</button>
+                <button class="filter-btn" data-filter="photo">Photo</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="broker">Broker</button>
+                <button class="filter-btn" data-filter="sounds">Sounds</button>
+                <button class="filter-btn" data-filter="band">Band</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Items populated via JS for simplicity or hardcoded here -->
+                <div class="portfolio-item photo">
+                    <img src="b8655141-cb74-49f1-b15f-b64dafd85df7.jpg" alt="NETVORA 26 Shoot">
+                    <div class="item-overlay">
+                        <h3>NETVORA '26</h3>
+                        <p>Nova Photography</p>
+                        <button class="view-btn"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio-item photo">
+                    <img src="0b0ebf27-a961-49e8-98a0-b8f319d1821e - Copy.jpg" alt="NETVORA 26 Performance">
+                    <div class="item-overlay">
+                        <h3>NETVORA '26 Performance</h3>
+                        <p>Nova Photography</p>
+                        <button class="view-btn"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio-item photo">
+                    <img src="193c309c-4071-4cc7-9610-54c5406fac8a - Copy.jpg" alt="NETVORA 26 Dancer">
+                    <div class="item-overlay">
+                        <h3>NETVORA '26 Dancer</h3>
+                        <p>Nova Photography</p>
+                        <button class="view-btn"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio-item photo">
+                    <img src="4611b110-d741-4f9a-ba52-ad6b0b88680a - Copy.jpg" alt="NETVORA 26 Lighting">
+                    <div class="item-overlay">
+                        <h3>NETVORA '26 Lighting</h3>
+                        <p>Nova Photography</p>
+                        <button class="view-btn"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio-item photo">
+                    <img src="77c37108-029c-41cb-9402-49122d3c1eb7 - Copy.jpg" alt="Album Is On The Way">
+                    <div class="item-overlay">
+                        <h3>Album Teaser</h3>
+                        <p>Nova Photography</p>
+                        <button class="view-btn"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Wedding Shoot">
+                <div class="item-overlay">
+                    <h3>Summer Wedding</h3>
+                    <p>Nova Photography</p>
+                    <button class="view-btn"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+            <div class="portfolio-item edits">
+                <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Commercial Edit">
+                <div class="item-overlay">
+                    <h3>Nike Commercial Cut</h3>
+                    <p>Nova Edits</p>
+                    <button class="view-btn"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+            <div class="portfolio-item events">
+                <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Tech Conference">
+                <div class="item-overlay">
+                    <h3>Tech Summit 2025</h3>
+                    <p>Nova Events</p>
+                    <button class="view-btn"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+            <div class="portfolio-item broker">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Luxury Villa">
+                <div class="item-overlay">
+                    <h3>Lakeside Villa Sale</h3>
+                    <p>Nova Broker</p>
+                    <button class="view-btn"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+            <div class="portfolio-item sounds">
+                <img src="https://images.unsplash.com/photo-1516280440502-861f51390b1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Studio Session">
+                <div class="item-overlay">
+                    <h3>Album Mastering</h3>
+                    <p>Nova Sounds</p>
+                    <button class="view-btn"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+            <div class="portfolio-item band">
+                <img src="https://images.unsplash.com/photo-1470229722913-7c092db1ad39?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Live Concert">
+                <div class="item-overlay">
+                    <h3>City Festival Gigs</h3>
+                    <p>Nova Band</p>
+                    <button class="view-btn"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing-section bg-light"
+        data-bg="https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=2071&auto=format&fit=crop"
+        data-color="#FF9F0A">
+        <div class="container glass-panel">
+            <h2 class="section-title">Transparent <span>Pricing</span></h2>
+
+            <div class="pricing-tabs">
+                <button class="tab-btn active" data-tab="tab-photo">Photography</button>
+                <button class="tab-btn" data-tab="tab-sounds">Sounds</button>
+                <button class="tab-btn" data-tab="tab-band">Band</button>
+                <button class="tab-btn" data-tab="tab-broker">Broker</button>
+                <button class="tab-btn" data-tab="tab-edits">Edits</button>
+                <button class="tab-btn" data-tab="tab-events">Events</button>
+            </div>
+
+            <div class="tab-content active" id="tab-photo">
+                <div class="pricing-card">
+                    <h3>Photography Packages</h3>
+                    <p class="price"><span>Rs 20,000</span> / event</p>
+                    <p>Affordable packages tailored to your needs, whether it's a portrait session or full event
+                        coverage.</p>
+                    <a href="#contact" class="btn primary-btn" onclick="selectContactReason('photography')">Get Custom
+                        Quote</a>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-sounds">
+                <div class="pricing-card">
+                    <h3>Studio Rates</h3>
+                    <p class="price"><span>Rs 3,000</span> / hour</p>
+                    <p>Hourly studio rates & package deals for recording, mixing, and mastering full albums.</p>
+                    <a href="#contact" class="btn primary-btn" onclick="selectContactReason('sounds')">Get Custom
+                        Quote</a>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-band">
+                <div class="pricing-card">
+                    <h3>Live Band Hire</h3>
+                    <p class="price"><span>Custom Rate</span></p>
+                    <p>Show rates based on duration, venue location, and equipment requirements.</p>
+                    <a href="#contact" class="btn primary-btn" onclick="selectContactReason('band')">Get Custom
+                        Quote</a>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-broker">
+                <div class="pricing-card">
+                    <h3>Real Estate Commission</h3>
+                    <p class="price"><span>3% Rate</span></p>
+                    <p>Standard 3% commission rate for land and property sales. Contact us for a precise quote on your
+                        property.</p>
+                    <a href="#contact" class="btn primary-btn" onclick="selectContactReason('broker-sell')">Get Custom
+                        Quote</a>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-edits">
+                <div class="pricing-card">
+                    <h3>Video Editing</h3>
+                    <p class="price"><span>Project Based</span></p>
+                    <p>Per-minute or full project-based pricing depending on the complexity and VFX requirements.</p>
+                    <a href="#contact" class="btn primary-btn" onclick="selectContactReason('edits')">Get Custom
+                        Quote</a>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-events">
+                <div class="pricing-card">
+                    <h3>Event Management</h3>
+                    <p class="price"><span>Rs 20,000</span> / event</p>
+                    <p>Comprehensive event planning and management for corporate events, parties, and celebrations.</p>
+                    <a href="#contact" class="btn primary-btn" onclick="selectContactReason('events')">Get Custom
+                        Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section"
+        data-bg="https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=2071&auto=format&fit=crop"
+        data-color="#30D158">
+        <div class="container glass-panel">
+            <h2 class="section-title">Stellar <span>Reviews</span></h2>
+
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Nova Edits transformed our raw footage into a cinematic masterpiece.
+                        The color grading was phenomenal!"</p>
+                    <div class="client-info">
+                        <div>
+                            <h4>Supun Geethika</h4>
+                            <span>Nova Edits Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The band brought so much energy to our corporate gala. Everyone was on
+                        the dance floor!"</p>
+                    <div class="client-info">
+                        <div>
+                            <h4>Dinidu Aberathna</h4>
+                            <span>Nova Band Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Sold my plot of land within 2 weeks thanks to Nova Broker. Professional
+                        and transparent."</p>
+                    <div class="client-info">
+                        <div>
+                            <h4>Gihan Subasinghe</h4>
+                            <span>Nova Broker Client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section"
+        data-bg="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop"
+        data-color="#BF5AF2">
+        <div class="container glass-panel">
+            <h2 class="section-title">Connect with <span>NOVA</span></h2>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Ready to start a project? Need a quote? Reach out to us directly or use the form.</p>
+
+                    <ul class="info-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Kandy, Sri Lanka</li>
+                        <li><i class="fas fa-phone-alt"></i> 0719055470, 0726064883, 0719503055</li>
+                        <li><i class="fas fa-envelope"></i> nova.clixhub@gmail.com</li>
+                        <li><i class="far fa-clock"></i> Every day: 8:00 AM - 8:00 PM</li>
+                    </ul>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/nova.clixhub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/1098106170051714?ref=PROFILE_EDIT_xav_ig_profile_page_web" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/94719055470" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form" action="https://formsubmit.co/nova.clixhub@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="form-group">
+                            <label for="division">Which division do you need?</label>
+                            <select id="division" name="division" required>
+                                <option value="general">General Inquiry</option>
+                                <option value="edits">Nova Edits Project</option>
+                                <option value="photography">Photography Booking</option>
+                                <option value="events">Event Planning</option>
+                                <option value="broker-sell">Property Listing - I Have Land to Sell</option>
+                                <option value="broker-buy">Property Listing - I Want to Buy Land</option>
+                                <option value="sounds">Studio Booking (Sounds)</option>
+                                <option value="band">Band Booking</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group half">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group half">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn submit-btn">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                        <p class="form-success-msg" style="display:none; color: #30D158; margin-top: 10px;">Message sent
+                            successfully!</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2 class="glow-text">NOVA</h2>
+                    <p>One Vision. Infinite Possibilities.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#edits">Nova Edits</a></li>
+                        <li><a href="#photography">Nova Photography</a></li>
+                        <li><a href="#events">Nova Events</a></li>
+                        <li><a href="#broker">Nova Broker</a></li>
+                        <li><a href="#sounds">Nova Sounds</a></li>
+                        <li><a href="#band">Nova Band</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay in the NOVA universe</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NOVA. All rights reserved.</p>
+                <div class="footer-sub-brand">
+                    Nova Edits | Nova Photography | Nova Events | Nova Broker | Nova Sounds | Nova Band
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
